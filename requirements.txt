@@ -1,5 +1,8 @@
+# requirements.txt
 streamlit
 pandas
 numpy
-scikit-learn  # Ini diperlukan untuk SimpleImputer, StandardScaler, SVC, dll.
 joblib
+
+# Pastikan versi scikit-learn ini cocok dengan versi yang digunakan saat menyimpan model!
+scikit-learn==1.3.0
